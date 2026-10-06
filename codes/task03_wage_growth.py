@@ -1,5 +1,5 @@
-# Student Name: Nguyễn Anh Tú
-# Student ID: ITDSIU23026
+# Student's Name: Nguyễn Anh Tú
+# StudentID: ITDSIU23026
 # Course: Fundamentals of Programming (FoP)
 # Lab 2 – Task 3
 # Date: 5/10/2026
@@ -14,7 +14,7 @@ print(f"{'Year':<6}{'Wage ($/hr)':>12}")
 print("-" * 18)
 for n in range(1, years + 1):
     w = o * (1 + p) ** n
-    print(f"{n:<6}{w:>12.2f}")
+    print(f"{n:<6}{round(w, 2):>12}")
 
 # 2
 o, p = 10.0, 0.03
@@ -25,7 +25,7 @@ print("-" * 30)
 for n in range(1, 11):
     w = o * (1 + p) ** n
     increase = w - prev_w
-    print(f"{n:<6}{w:>12.2f}{increase:>12.2f}")
+    print(f"{n:<6}{round(w, 2):>12}{round(increase, 2):>12}")
     prev_w = w  # Update for next iteration
 
 # 3

@@ -1,5 +1,5 @@
-# Student Name: Nguyễn Anh Tú
-# Student ID: ITDSIU23026
+# Student's Name: Nguyễn Anh Tú
+# StudentID: ITDSIU23026
 # Course: Fundamentals of Programming (FoP)
 # Lab 2 – Task 5
 # Date: 5/10/2026
